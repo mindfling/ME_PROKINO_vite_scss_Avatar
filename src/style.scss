@@ -1,5 +1,6 @@
 @import 'normalize.css';
 
+
 * {
   box-sizing: border-box;
 }
@@ -8,11 +9,17 @@
 a {
   text-decoration: none;
   cursor: pointer;
+  color: white;
+  opacity: 1;
+
+  &:hover {
+    opacity: .8;
+  }
 }
 
 button {
   border: 1px solid transparent;
-  background-color: black;
+  background-color: transparent;
   cursor: pointer;
 }
 

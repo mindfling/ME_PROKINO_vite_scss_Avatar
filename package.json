@@ -5,8 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "start": "vite --open",
+    "open": "vite --open",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "clear": "rm -r ./dist"
   },
   "devDependencies": {
     "sass": "^1.71.0",

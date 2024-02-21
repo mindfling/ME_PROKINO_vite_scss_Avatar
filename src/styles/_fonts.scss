@@ -1,13 +1,15 @@
+/* Inter Regular */
 @font-face {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
   src: local('Inter'),
-    local('Inter Regular'),
-    url('/public/fonts/inter-v13-cyrillic_latin-regular.woff2') format('woff2');
+  local('Inter Regular'),
+  url('/public/fonts/inter-v13-cyrillic_latin-regular.woff2') format('woff2');
 }
 
+/* Inter Semibold */
 @font-face {
   font-family: 'Inter';
   font-style: normal;
@@ -19,6 +21,7 @@
 }
 
 
+/* Prodotto In Cina for Logo Banner */
 @font-face {
   font-family: 'Prodotto In Cina';
   font-weight: 900;

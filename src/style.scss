@@ -1,5 +1,5 @@
-@import 'normalize.css';
-@import 'styles/fonts';
+@import '../node_modules/normalize.css/';
+@import './styles/fonts';
 
 
 * {
@@ -16,6 +16,14 @@ a {
   &:hover {
     opacity: .8;
   }
+}
+
+html {
+  // border: 1px solid red;
+}
+
+body {
+  // border: 1px solid blue;
 }
 
 .hero__down-btn {

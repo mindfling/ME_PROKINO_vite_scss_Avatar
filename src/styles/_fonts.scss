@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Inter'),
+    local('Inter Regular'),
+    url('/public/fonts/inter-v13-cyrillic_latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Inter'),
+    local('Inter Semibold'),
+    url('/public/fonts/inter-v13-cyrillic_latin-600.woff2') format('woff2');
+}
+
+
+@font-face {
+  font-family: 'Prodotto In Cina';
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  src: local('Prodotto In Cina'),
+    url('/public/fonts/Prodotto-In-Cina.woff2') format('woff2');
+}
+
+/* * Arial Black */
+@font-face {
+	font-family: 'Arial Black';
+	font-weight: 900;
+	font-style: normal;
+  font-display: swap;
+	src: local('Arial Black'), url('../fonts/arial-black.woff2') format('woff2'); /* Modern Browsers */
+}

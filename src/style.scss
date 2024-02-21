@@ -1,56 +1,10 @@
 @import '../node_modules/normalize.css/';
+@import './styles/global';
 @import './styles/fonts';
 
 
-* {
-  box-sizing: border-box;
-}
-
-
-a {
-  text-decoration: none;
-  cursor: pointer;
-  color: white;
-  opacity: 1;
-
-  &:hover {
-    opacity: .8;
-  }
-}
-
-html {
-  // border: 1px solid red;
-}
-
-body {
-  // border: 1px solid blue;
-}
-
-.hero__down-btn {
-  border: 1px solid white;
-  border-radius: 50%;
-  background-color: transparent;
-  cursor: pointer;
-  display: flex;
-  width: max-content;
-  height: max-content;
-  // height: 100%;
-  // max-height: 65px;
-}
-
-.page {
-  font-weight: 400;
-  font-style: normal;
-  line-height: 1.2;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  background-color: #000201;
-  color: #fefefe;
-}
-
-
+// debug
 .title {
-  border: 1px solid orange;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -65,7 +19,6 @@ body {
   text-transform: uppercase;;
 
   &__text {
-    border: 1px solid lawngreen;
     display: block;
     
     &_top {
@@ -78,16 +31,5 @@ body {
       font-size: 82px;
     }
   }  
-}
-
-
-.visually-hidden {
-  position: fixed;
-  transform: scale(0);
-}
-
-::selection {
-  background-color: #ff3d00;
-  color: #0e0e0e;
 }
 

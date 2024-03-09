@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+
+  border: 1px solid lawngreen;
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+    border: 1px solid rebeccapurple;
+  }
+}
+
+.header__link {
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  padding: 14px 20px;
+  opacity: 1;
+  &:hover {
+    // opacity: .8;
+  }
+}
+.btn_orange {
+  color: #fff;
+  background-color: #FF3D00;
+  border: 1px solid #FF3D00;
+  border-radius: 52px;
+  &:hover {
+    background-color: #FF521B;
+  }
+  &:active {
+    border-color: #fff;
+  }
+}

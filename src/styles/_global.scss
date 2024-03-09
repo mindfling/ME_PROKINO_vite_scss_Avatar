@@ -11,6 +11,7 @@ html {
   box-sizing: inherit;
 }
 
+.page,
 body {
   display: block;
   width: 100%;
@@ -47,11 +48,13 @@ textarea {
   padding: 0;
 }
 
+.btn,
 button {
   padding: 0;
   cursor: pointer;
 }
 
+.link,
 a {
   text-decoration: none;
   color: inherit;
@@ -108,6 +111,8 @@ blockquote {
 Чтобы контент не прижимался к краям экрана
 */
 .container {
+  display: flex;
+  width: 100%;
   /* width: 1180px; */
   max-width: 1240px; /* 30 + 1180 + 30 */
   padding: 0 30px;

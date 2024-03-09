@@ -1,0 +1,40 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 476px 0 40px;
+  background: url('/public/img/photo-banner.jpg') center no-repeat;
+
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 1px solid rebeccapurple;
+  }
+}
+
+.header__link {
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  padding: 14px 20px;
+  opacity: 1;
+  &:hover {
+    // opacity: .8;
+  }
+}
+.btn_orange {
+  color: #fff;
+  border-radius: 52px;
+  &:hover {
+  }
+  &:active {
+  }
+}
